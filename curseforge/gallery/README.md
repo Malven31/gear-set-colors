@@ -6,6 +6,15 @@ Screenshots for the CurseForge gallery go in this folder.
 
 To show one in the description or the README, commit it here and load it in the description from `https://raw.githubusercontent.com/Malven31/gear-set-colors/main/curseforge/gallery/<file>` (the README uses the relative path). That needs the repository to stay public.
 
+## Captures in this folder
+
+Both taken in the game on 2026-11-18, with three sets (DPS, Heal, Tank) and all three marking styles on. Checked: no character name, chat or player frame.
+
+| File | What it shows | Title | Description |
+|---|---|---|---|
+| `2026-11-18 104728.png` | The Equipment Manager with a colour square on each set's icon, beside the backpack with set items framed, tinted and tagged in their sets' colours | Your sets at a glance | Every item that belongs to an equipment set is marked with the set's colour, and the Equipment Manager shows each set's colour on its icon. |
+| `2026-11-18 105011.png` | The options page (`/gsc`) | Options | Choose how items are marked, and pick each set's colour. |
+
 ## Screenshots
 
 Tips:
