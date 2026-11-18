@@ -1,0 +1,28 @@
+# Packaging instructions for the BigWigs packager, which .github/workflows/release.yml runs on every tag.
+#
+# The addon lives in the GearSetColors folder, next to the repository's own files. That folder is moved
+# to the root of the zip (the same layout as Deadly Boss Mods). The packager then reads
+# GearSetColors/GearSetColors.toc for the CurseForge project ID and the game version
+# (## Interface: 16001 is World of Warcraft: Forever).
+package-as: GearSetColors
+
+move-folders:
+  GearSetColors/GearSetColors: GearSetColors
+
+# Paths in the repository, before the folder is moved. Files starting with a dot are never packaged.
+ignore:
+  - .github
+  - curseforge
+  - scripts
+  - README.md
+  - FEATURES.md
+  - CHANGELOG.md
+  - RELEASE_NOTES.md
+
+# The changelog shown on CurseForge (website and app) for each file: only the CHANGELOG.md section of the
+# version being released, which the workflow writes to RELEASE_NOTES.md (scripts/release-notes.sh).
+manual-changelog:
+  filename: RELEASE_NOTES.md
+  markup-type: markdown
+
+enable-nolib-creation: no

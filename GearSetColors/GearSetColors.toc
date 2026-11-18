@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: Gear Set Colors
+## Author: Malven31
+## Version: 1.0.0
+## Notes: Colours bag items by the equipment set they belong to, so you don't sell them by mistake. /gsc
+## SavedVariables: GearSetColorsDB
+## IconTexture: Interface\AddOns\GearSetColors\media\icon
+## AddonCompartmentFunc: GearSetColors_OnAddonCompartmentClick
+## X-Credits: By Malven31, made with Claude (Anthropic).
+## X-License: MIT
+
+Core.lua
+Options.lua
+EquipmentManager.lua
