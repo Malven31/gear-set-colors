@@ -8,6 +8,7 @@
 ## AddonCompartmentFunc: GearSetColors_OnAddonCompartmentClick
 ## X-Credits: By Malven31, made with Claude (Anthropic).
 ## X-License: MIT
+## X-Curse-Project-ID: 1814234
 
 Core.lua
 Options.lua

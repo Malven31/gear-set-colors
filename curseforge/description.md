@@ -1,8 +1,7 @@
 # Gear Set Colors
 
-<!-- Download badge, once the project exists: replace <id> with the project ID and uncomment.
-![Downloads](https://img.shields.io/curseforge/dt/<id>?logo=curseforge&label=downloads)
--->
+<!-- Download badge for CurseForge project 1814234, served by shields.io. -->
+![Downloads](https://img.shields.io/curseforge/dt/1814234?logo=curseforge&label=downloads)
 
 **Never sell a piece of your gear by mistake again.** Gear Set Colors marks every item in your bags that belongs to one of your equipment sets with that set's colour: your tank gear in one colour, your healing gear in another, your fishing outfit in a third. One look at your bags before you sell, and you know what to keep.
 

@@ -1,5 +1,7 @@
 # Gear Set Colors
 
+[![CurseForge downloads](https://img.shields.io/curseforge/dt/1814234?logo=curseforge&label=downloads)](https://www.curseforge.com/projects/1814234)
+
 Never sell a piece of your gear by mistake again. Gear Set Colors marks every item in your bags that belongs to one of your equipment sets with that set's colour: your tank gear in one colour, your healing gear in another.
 
 Made for **World of Warcraft: Forever**.
@@ -11,7 +13,7 @@ Made for **World of Warcraft: Forever**.
 
 ## Install
 
-Install it from CurseForge (Forever flavor), or by hand:
+Install it from [CurseForge](https://www.curseforge.com/projects/1814234) (Forever flavor), or by hand:
 
 1. Copy the `GearSetColors` folder into `World of Warcraft\_forever_\Interface\AddOns`.
 2. Restart the game.

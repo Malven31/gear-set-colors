@@ -46,10 +46,11 @@ If the description editor has no Markdown mode, open `description.md` in a Markd
 
 ## Project ID
 
-The project ID is in the "About Project" box of the project page, once the project exists. Then:
+The project ID is **1814234** (project created 2026-11-18; the ID is in the "About Project" box of the project page).
 
-- Add `## X-Curse-Project-ID: <id>` to `GearSetColors/GearSetColors.toc`. Without it, the workflow refuses tags and `scripts/release.ps1` refuses to tag.
-- Uncomment the download badge at the top of `description.md`, with the ID, and add the same badge to `README.md`, linked to `https://www.curseforge.com/projects/<id>` (it leads to the project page whatever its URL slug). Until CurseForge's public API lists the project, the badge may read "downloads: not found".
+- It is in `GearSetColors/GearSetColors.toc` as `## X-Curse-Project-ID: 1814234`. Without it, the workflow refuses tags and `scripts/release.ps1` refuses to tag.
+- The top of `description.md` and `README.md` shows the download count, `https://img.shields.io/curseforge/dt/1814234?logo=curseforge&label=downloads`. Until CurseForge's public API lists the project, the badge reads "downloads: not found", and then shows the count. The fallback badge service is `https://cf.way2muchnoise.eu/full_1814234_downloads.svg`, which answers with a server error until then.
+- Links to the project use `https://www.curseforge.com/projects/1814234`, which leads to the project page whatever its URL slug.
 
 ## Automatic packaging (set up once)
 
